@@ -1,5 +1,5 @@
 $.getJSON( "assets/test.json", function( data ) {
-	console.log(data);
+console.log(data);
   var items = [];
   $.each( data, function( key, val ) {
     items.push( "<li id='" + key + "'>" + val + "</li>" );
